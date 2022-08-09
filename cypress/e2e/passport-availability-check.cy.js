@@ -8,6 +8,6 @@ describe('Check changes in passport queue', () => {
     cy.get('select[id="doc_2_select"]').select('2');
     cy.get('input[id="doc_2_number9"').type('002693734');
     cy.get('button[id="equeue-form-checker-submit"]').click()
-    cy.get('.uk-notification-message').contains('11111Дані відправлено до центру персоналізації')
+    cy.get('.uk-notification-message').contains('Дані відправлено до центру персоналізації')
   })
 })
