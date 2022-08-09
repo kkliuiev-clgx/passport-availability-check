@@ -1,0 +1,22 @@
+{
+  "name": "passport-availability-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run --spec cypress/e2e/passport-availability-check.cy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkliuiev/passport-availability-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkliuiev/passport-availability-check/issues"
+  },
+  "homepage": "https://github.com/kkliuiev/passport-availability-check#readme",
+  "dependencies": {
+    "cypress": "^10.4.0"
+  }
+}
