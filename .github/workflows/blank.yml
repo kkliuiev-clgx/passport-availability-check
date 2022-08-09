@@ -1,0 +1,16 @@
+name: Check Availability
+on: workflow_dispatch
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main branch
+        uses: actions/checkout@v2
+        with:
+          ref: master
+
+      - name: Install dependecies
+        run: npm i
+
+      - name: Run check
+        run: npm run test
