@@ -10,5 +10,5 @@ then
   exit 0
 else
   curl --location --request GET 'https://api.telegram.org/bot5561712203:AAE3zaUjDdVjPFSpGJFP0NJOA2-Ej2nuL_Y/sendMessage?chat_id=@passcheckmybot&text=Паспорт еще не готов.Ждем'
-  exit 1
+  exit 0
 fi
