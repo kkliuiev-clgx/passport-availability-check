@@ -16,4 +16,4 @@ jobs:
         run: npm i
 
       - name: Run check
-        run: npm run test
+        run: sh ./check.sh
