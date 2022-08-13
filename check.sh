@@ -9,6 +9,6 @@ then
   curl --location --request GET 'https://api.telegram.org/bot5561712203:AAE3zaUjDdVjPFSpGJFP0NJOA2-Ej2nuL_Y/sendMessage?chat_id=@passcheckmybot&text=Судя по всему паспорт готов, ну или у них не работает сервис.'
   exit 0
 else
-  curl --location --request GET 'https://api.telegram.org/bot5561712203:AAE3zaUjDdVjPFSpGJFP0NJOA2-Ej2nuL_Y/sendMessage?chat_id=@passcheckmybot&text=Паспорт еще не готов.Ждем'
+  curl --location --request GET 'https://api.telegram.org/bot5561712203:AAE3zaUjDdVjPFSpGJFP0NJOA2-Ej2nuL_Y/sendMessage?chat_id=@passcheckmybot&text=Паспорт еще не готов. Ждем-c'
   exit 0
 fi
