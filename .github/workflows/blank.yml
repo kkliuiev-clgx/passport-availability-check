@@ -1,7 +1,6 @@
 name: Check Availability
 on:
-  schedule:
-    - cron:  '55 * * * *'
+  workflow_dispatch
 
 jobs:
   build_and_deploy:
